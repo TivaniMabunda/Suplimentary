@@ -1,0 +1,213 @@
+.override-nav {background: darkgreen !important;}
+.override-brand {color: white !important;}
+.override-toggle {border: 1px solid white !important; }
+.override-icon-color {color: green !important;}
+
+#heading {
+    /*background-color: white;*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-image: url('/Image/Tivani.png');
+    color: blue;
+    }
+
+#headshot {
+        width: 15%;
+        height: 10%;
+        border: grey solid;
+        border-width: 5px;
+        border-radius: 100%;
+    }
+.intro {font-size: 30;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.main {display: flex;
+    border: 10px solid brown;}
+#sidebar {
+    width: 20%;
+    background-color: lightgray;
+    color: #00FA9A;
+    padding: 1rem;
+    border: 10px solid grey;
+    }
+#content{
+   
+    padding: 1rem;
+    margin: 1rem;
+    border: 10px solid grey;
+    width: 80%;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 110%;
+    /* background-color: lightgoldenrodyellow; */
+}
+#backgroundpicture{
+    display: relative;
+    height: 80%;
+    width: 100%;
+    background-image: ("Image/Tivani.png");
+    background-size: 100%;
+}
+h1 { color: black;}
+h2 {color: black;}
+h3 {color: black}
+div {color: rebeccapurple;}
+.Container {
+    border: burlywood;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+footer{background-color: lightcyan;
+text-align: center;}
+art {color: black;
+    background-color: cyan;
+}
+
+
+footer {padding-top: 20px;
+        color: thistle;
+        text-align: center;
+        border: black solid;}
+.social-icons {
+        margin: 2.5%;
+        width: 25rem;
+        height: auto;
+        position: relative;
+        border-radius: 20%;
+    }
+    .social-icons .social-icons-image {
+        display: inline-block;
+        position: relative;
+        width: 33%;
+        height: auto;
+        z-index: 2;
+        opacity: 1;
+        transition: all .5s;
+        padding: 2%;
+        box-sizing: border-box;
+    }
+    .social-icons .social-icons-image a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    .social-icons img {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .social-icons a:hover img {
+        width: 115%;
+        height: auto;
+        margin: -10%;
+    }
+    .social-icons .social-icons-image:nth-child(1) {
+        left: 33.755%;   /*(nth-child(2).left - (50% * 20%)/4)*/
+        top: 25%; /*((100%-50%)/2)*/
+        z-index: 0;
+        width: 10%; /*(50% * 20%)*/
+        height: auto;
+        opacity: .5;
+    }
+    .social-icons .social-icons-image:nth-child(2) {
+        left: 36.25%;   /*(40% - (75% * 20%)/4)*/
+        top: 12.5%; /*((100%-75%)/2)*/
+        z-index: 1;
+        width: 15%; /*(75% * 20%)*/
+        height: auto;
+        opacity: .75;
+    }
+    .social-icons .social-icons-image:nth-child(4) {
+        left: 48.75%; /*(60% - 3*(75% * 20%)/4*/
+        top: 12.5%; /*((100%-75%)/2)*/
+        z-index: 1;
+        width: 15%; /*(75% * 20%)*/
+        height: auto;
+        opacity: .75;
+    }
+    .social-icons .social-icons-image:nth-child(3) {
+        left: 40%;
+        z-index: 2;
+        width: 20%;
+        height: auto;
+    }
+    .social-icons .social-icons-image:nth-child(5) {
+        left: 56.25%;   /*(nth-child(4).left + (nth-child(4).width- 3*(50% * 20%)/4)*/
+        top: 25%; /*((100%-50%)/2)*/
+        z-index: 0;
+        width: 10%; /*(50% * 20%)*/
+        height: auto;
+        opacity: .5;
+    }
+    .social-icons:hover .social-icons-image:nth-child(1) {
+        top: 0px;
+        left: 0%;
+        width: 20%;
+        opacity: 1;
+    }
+    .social-icons:hover .social-icons-image:nth-child(2) {
+        top: 0px;
+        left: 20%;
+        width: 20%;
+        opacity: 1;
+    }
+    .social-icons:hover .social-icons-image:nth-child(4) {
+        top: 0px;
+        left: 60%;
+        width: 20%;
+        opacity: 1;
+    }
+    .social-icons:hover .social-icons-image:nth-child(5) {
+        top: 0px;
+        left: 80%;
+        width: 20%;
+        opacity: 1;
+    }
+      input[type=text], select, textarea {
+        width: 40%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        resize: vertical;
+      }
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type=submit]:hover {
+        background-color: #45A049;
+      }
+      .container {
+        border-radius: 5px;
+        /*background-color: #F2F2F2;*/
+        padding: 20px;
+
+ 
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+      }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }
